@@ -1,0 +1,16 @@
+@import './base.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 100vh;
+  padding: 10px;
+  /* max-width: 1024px;
+  min-width: 967px; */
+}
